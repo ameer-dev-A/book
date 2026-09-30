@@ -8,7 +8,7 @@ import './style.css'
   let nav = document.querySelector('nav');
   let active = document.querySelector('.active');
   let icon = document.querySelector('.icon');
-
+ 
   openbtn.addEventListener('click',()=>{
    imgbtn.style.filter = 'invert(1)';
    menue.classList.remove('hidden');
